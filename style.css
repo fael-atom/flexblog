@@ -383,3 +383,23 @@ img {
   padding: 15px 10px;
 }
 
+@media (max-width: 600px) {
+  .newsletter-form button {
+    font-size: 1.5rem;
+  }
+}
+
+.footer {
+  display: flex;
+  height: 200px;
+  background: #2c70ff;
+  align-items: center;
+}
+
+.footer p {
+  flex: 1;
+  text-align: center;
+  font-size: 2.25rem;
+  color: #122ab2;
+}
+
